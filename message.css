@@ -1,0 +1,15 @@
+body::before {
+    content: "Export started, this could take some time...";
+    z-index: 1000 !important;
+    color: white;
+    background-color: #1D1D1D;
+    font-size: large;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem 3rem;
+    border-bottom-left-radius: 1rem;
+    border-color: blue;
+    border-width: 2px;
+}
